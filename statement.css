@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("cloth design 6.jpg");
+  background-image: url("img/cloth-design-6.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -54,7 +54,7 @@ body {
 
 @media screen and (max-width: 800px) {
   body {
-    background-image: url("cloth design 6 copy.jpg");
+    background-image: url("img/cloth-design-6 copy.jpg");
   }
   .cadre {
     font-size: 20px;
