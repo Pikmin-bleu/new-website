@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('fonts/Futura Book font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-image: url("cloth design 6.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  font-family: "Futura";
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: justify;
+  image-rendering: pixelated;
+}
+
+.cadre {
+  background: rgba(1,1,1,0.8);
+  width: 50vw;
+  border: 1px solid black;
+  border-radius: 10%;
+  font-family: "Futura";
+  font-size: 25px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: scroll;
+  padding: 5%;
+}
+
+.back {
+  background: black;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index:3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-image: url("cloth design 6 copy.jpg");
+  }
+  .cadre {
+    font-size: 20px;
+    width: 75vw;
+    padding: 5%;
+  }
+  .back {
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    top: 0px;
+    left: 0px;
+    bottom: 90vh;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
