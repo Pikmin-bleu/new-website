@@ -43,14 +43,17 @@ body {
 }
 
 .middle {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
+  background: rgba(1,1,1,0.8);
+  width: 50vw;
+  border: 1px solid black;
+  border-radius: 10%;
+  font-family: "Futura";
+  font-size: 25px;
   position:absolute;
-  overflow: scroll;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5%;
 }
 
 @media screen and (max-width: 800px) {
