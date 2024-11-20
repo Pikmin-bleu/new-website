@@ -54,8 +54,8 @@ body {
   right: 100px;
   text-align: justify;
   overflow-wrap: break-word;
-  width: 30%;
-  height: 20%;
+  width: 30vw;
+  height: 20vh;
 }
 
 .s {
@@ -130,6 +130,10 @@ body {
     background-image: url("");
     background-color: rgb(1,1,1,0.5);
     text-shadow: 0 0 0;
+  }
+  .desc {
+    width: 20vw;
+    height: 30vh;
   }
 }
 
