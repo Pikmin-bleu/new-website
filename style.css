@@ -54,6 +54,8 @@ body {
   right: 100px;
   text-align: justify;
   overflow-wrap: break-word;
+  width: 30%;
+  height: 20%;
 }
 
 .s {
