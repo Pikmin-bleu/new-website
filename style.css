@@ -187,7 +187,8 @@ body {
 
   .desc {
     position: relative;
-    align-content: center;
+    top: 50vh;
+    left: 50vw;
     text-align: center;
     overflow-wrap: normal;
   }
