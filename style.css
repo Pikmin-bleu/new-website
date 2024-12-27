@@ -64,6 +64,7 @@ body {
   background: none;
   display: block;
   position: absolute;
+  min-width: 5vw;
   right: 0;
   top: 0;
 }
@@ -71,7 +72,7 @@ body {
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: none;
-  color: black;
+  color: white;
 }
 
 /* Style the active link (or home/logo) */
