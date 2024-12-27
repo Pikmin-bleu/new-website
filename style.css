@@ -187,6 +187,7 @@ body {
 
   .desc {
     position: relative;
+    align-content: center;
     text-align: center;
     overflow-wrap: normal;
   }
