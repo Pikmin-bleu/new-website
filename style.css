@@ -24,7 +24,6 @@ body {
 
 .phone {
   display: none;
-  color: red;
 }
 
 @media only screen and (max-width: 600px) {
@@ -40,6 +39,10 @@ body {
 
 .phone {
   display: initial;
+}
+
+.otherphone {
+  display: none;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
