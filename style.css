@@ -64,7 +64,7 @@ body {
   background: none;
   display: block;
   position: absolute;
-  min-width: 5vw;
+  width: 20px;
   right: 0;
   top: 0;
 }
