@@ -61,7 +61,7 @@ body {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: none;
   display: block;
   position: absolute;
   right: 0;
