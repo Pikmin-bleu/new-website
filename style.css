@@ -76,7 +76,7 @@ body {
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #000000;
+  background-color: none;
   color: white;
 } 
 }
