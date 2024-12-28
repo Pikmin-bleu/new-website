@@ -52,6 +52,10 @@ body {
   align-items: center;
 }
 
+.phone {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   body {
     background-image: url("img/cloth-design-6 copy.jpg");
@@ -61,12 +65,18 @@ body {
     width: 75vw;
     padding: 5%;
   }
+
+  .phone {
+    display: initial;
+  }
+
   .back {
     writing-mode: vertical-lr;
     text-orientation: sideways;
     top: 0px;
     left: 0px;
     bottom: 85vh;
+    display: none;
   }
     /* Style the navigation menu */
  .topnav {
