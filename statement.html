@@ -8,8 +8,35 @@
          This makes it easier to make new pages for your site. -->
     <link href="statement.css" rel="stylesheet" type="text/css" media="all">
   </head>
+  <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  } 
+  </script>
+  
+  <div class="phone"><!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="index" class="active"><img src="jambon beurre.svg" style="max-height: 3vh"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="sculptures/index">sculptures</a>
+      <a href="clothing/index">clothing</a>
+      <a href="writing/index">writing</a>
+      <a href="statement">statement</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars" style="width: 20px;"></i>
+    </a>
+  </div></div>
   <body>
-    <a href="/" class="back">back</a>
+    <!-- <a href="/" class="back">back</a> -->
     <div class="cadre">
       <!-- <div style="text-align: center;">🐞<br></div> -->
       As a french person in Chicago I make pieces in discussion with the abundant unescapable presence of the US. I explore themes of early internet nostalgia, furry culture, transgender identity, sexual taboos and the alienation one can feel when unsure where they belong. Currently I focuse on stretchy synthetic fabrics for their quality of deforming the image; I am also looking to explore natural stretchy materials in the future, particularly with knits. I am currently studying at the School of the Arts Institute of Chicago with a focus in Fiber and Fashion.
