@@ -6,9 +6,6 @@
 }
 
 body {
-  background-image: url("site bg.svg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   background-color: black;
   color: white;
   text-shadow: -1px -1px 0 black, 0 -1px 0 black, 1px -1px 0 black, 1px 0 0 black, 1px 1px 0 black, 0 1px 0 black, -1px 1px 0 black, -1px 0 0 black;
@@ -23,6 +20,12 @@ body {
 
 .phone {
   display: none;
+}
+
+.bg {
+  background-image: url("site bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 @media only screen and (max-width: 600px) {
