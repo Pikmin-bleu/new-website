@@ -30,6 +30,13 @@ body {
 
 @media only screen and (max-width: 600px) {
    /* Style the navigation menu */
+
+.bg {
+  background-image: url("site bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100px 200px;
+}
+
  .topnav {
   overflow: hidden;
   background-color: #333;
