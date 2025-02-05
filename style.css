@@ -6,9 +6,9 @@
 }
 
 body {
-  background-image: url("img/site bg.svg");
+  background-image: url("img/writing.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-color: black;
   color: white;
   text-shadow: -1px -1px 0 black, 0 -1px 0 black, 1px -1px 0 black, 1px 0 0 black, 1px 1px 0 black, 0 1px 0 black, -1px 1px 0 black, -1px 0 0 black;
