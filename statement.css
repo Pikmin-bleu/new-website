@@ -6,12 +6,12 @@
 }
 
 body {
-  background-image: url("img/cloth-design-6.jpg");
+  background-image: url("site bg.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
-  color: white;
+  color: black;
   font-family: "Futura";
   font-size: 20px;
   margin-top: 0px;
