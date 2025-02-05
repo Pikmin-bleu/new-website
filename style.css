@@ -103,8 +103,8 @@ body {
   font-family: "Futura";
   font-size: 20px;
   position: absolute;
-  top: 100px;
-  right: 100px;
+  top: 30vh;
+  right: 40vw;
   text-align: justify;
   overflow-wrap: break-word;
   width: 30vw;
@@ -139,7 +139,7 @@ body {
   width: 100%;
   height: 20%;
   position: absolute;
-  top: 50vh;
+  top: 40vh;
   display: flex;
   align-items: center;
   flex-direction: row;
