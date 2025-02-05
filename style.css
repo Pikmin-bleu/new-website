@@ -6,11 +6,12 @@
 }
 
 body {
-  background-image: url("clothing/img/ABonner231216-4366-copy.jpg");
+  background-image: url("site bg.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
+  background-color: black;
   color: white;
   text-shadow: -1px -1px 0 black, 0 -1px 0 black, 1px -1px 0 black, 1px 0 0 black, 1px 1px 0 black, 0 1px 0 black, -1px 1px 0 black, -1px 0 0 black;
   font-family: "Futura";
