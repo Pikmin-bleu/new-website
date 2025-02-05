@@ -6,6 +6,9 @@
 }
 
 body {
+  background-image: url("img/site bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: black;
   color: white;
   text-shadow: -1px -1px 0 black, 0 -1px 0 black, 1px -1px 0 black, 1px 0 0 black, 1px 1px 0 black, 0 1px 0 black, -1px 1px 0 black, -1px 0 0 black;
@@ -22,19 +25,10 @@ body {
   display: none;
 }
 
-.bg {
-  background-image: url("site bg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @media only screen and (max-width: 600px) {
    /* Style the navigation menu */
-
-.bg {
-  background-image: url("clothing/img/ABonner231216-4366-copy.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  background-image: url("img/site bg phone.svg");
 }
 
  .topnav {
@@ -142,8 +136,8 @@ body {
 }
 
 .menu {
-  width: 20%;
-  height: 100%;
+  width: 100%;
+  height: 20%;
   display: flex;
   align-items: center;
   flex-direction: row;
