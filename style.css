@@ -6,9 +6,9 @@
 }
 
 body {
-  background-image: url("img/writing.png");
+  background-image: url("img/site bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw 100vh;
   background-color: black;
   color: white;
   text-shadow: -1px -1px 0 black, 0 -1px 0 black, 1px -1px 0 black, 1px 0 0 black, 1px 1px 0 black, 0 1px 0 black, -1px 1px 0 black, -1px 0 0 black;
@@ -28,7 +28,7 @@ body {
 @media only screen and (max-width: 600px) {
    /* Style the navigation menu */
 body {
-  background-image: url("img/site bg phone.svg");
+  background-image: url("img/site bg phone.png");
 }
 
  .topnav {
@@ -160,41 +160,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media screen and (max-width: 800px) {
-
-  .menu {
-    background-color: rgb(0,0,0,0);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  }
-  .logo {
-    top: 10px;
-  }
-  .back {
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    top: 0px;
-    left: 0px;
-    bottom: 90vh;
-  }
-  .button {
-    background-image: url("");
-    background-color: rgb(1,1,1,0.5);
-    text-shadow: 0 0 0;
-  }
-
-  .desc {
-
-    top: 35vh;
-    left: 35vw;
-    text-align: center;
-    overflow-wrap: normal;
-    z-index: -1;
-  }
-  
 }
 
 a {
