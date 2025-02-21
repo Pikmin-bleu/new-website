@@ -1,17 +1,23 @@
 @font-face {
     font-family: 'Futura';
-    src: url('fonts/Futura Book font.ttf') format('truetype');
+    src: url('fonts/futura medium bt.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'Futura Bold';
+  src: url('fonts/Futura Heavy font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  background-image: url("img/site bg.png");
+  background-image: url("img/site bg final@300x-50.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   background-color: black;
   color: white;
-  text-shadow: -1px -1px 0 black, 0 -1px 0 black, 1px -1px 0 black, 1px 0 0 black, 1px 1px 0 black, 0 1px 0 black, -1px 1px 0 black, -1px 0 0 black;
   font-family: "Futura";
   font-size: 20px;
   margin-top: 0px;
@@ -19,6 +25,7 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   image-rendering: pixelated;
+  line-height: 1;
 }
 
 .phone {
@@ -86,49 +93,75 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  color: white;
+  color: black;
+  padding: 0px;
   opacity: 1;
-  border: 1px solid white;
-  border-radius: 10%;
+  border: 3px solid black;
   font-family: "Futura";
-  font-size: 20px;
-  width: 200px;
-  height: 120px;
+  font-size: 3.2vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80%;
-  max-height: 80%;
+  text-align: center;
 }
 
 .desc {
-  color: white;
-  font-family: "Futura";
-  font-size: 20px;
+  color: black;
+  font-family: "Futura Bold";
+  font-size: 1.1vw;
   position: absolute;
-  top: 36%;
-  right: 20%;
-  text-align: justify;
+  top: 36.5%;
+  right: 76.7%;
+  width: 16.4%;
   overflow-wrap: break-word;
-  width: 60vw;
-  height: 60vh;
+  text-align: justify;
+  text-justify:distribute-all-lines;
   z-index: -1;
 }
 
 .s {
-  background-image: url('sculptures/img/sculptures.png');
+  position: absolute;
+  top: 37%;
+  right: 53.7%;
+  width: 21.5%;
+  height: 21.6%;
+  border-radius: 35px;
 }
 
 .f {
-  background-image: url('img/clothing.png');
+  position: absolute;
+  top: 37%;
+  right: 32.6%;
+  width: 13.6%;
+  height: 21.6%;
+  border-radius: 35px;
 }
 
 .w {
-  background-image: url('img/writing.png');
+  position: absolute;
+  top: 37%;
+  right: 10%;
+  width: 13.6%;
+  height: 21.6%;
+  border-radius: 35px;
 }
 
 .st {
-  background-image: url('img/statement.png');
+  position: absolute;
+  top: 37%;
+  right: 4.6%;
+  width: 13.6%;
+  height: 21.6%;
+  border-radius: 35px;
+}
+
+.cv {
+  position: absolute;
+  top: 37%;
+  right: 4.6%;
+  width: 13.6%;
+  height: 21.6%;
+  border-radius: 35px;
 }
 
 .logo {
@@ -173,6 +206,6 @@ body {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
