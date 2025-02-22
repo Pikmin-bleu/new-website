@@ -32,10 +32,33 @@ body {
   display: none;
 }
 
+
+.desc {
+  color: black;
+  font-family: "Futura Bold";
+  font-size: 80%;
+  position: absolute;
+  top: 36.5%;
+  right: 76.7%;
+  width: 16.4%;
+  overflow-wrap: break-word;
+  text-align: justify;
+  text-justify:distribute-all-lines;
+  z-index: -1;
+}
+
 @media only screen and (max-width: 600px) {
    /* Style the navigation menu */
+
 body {
   background-image: url("img/site bg phone.png");
+}
+
+.desc {
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
  .topnav {
@@ -103,20 +126,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.desc {
-  color: black;
-  font-family: "Futura Bold";
-  font-size: 1.1vw;
-  position: absolute;
-  top: 36.5%;
-  right: 76.7%;
-  width: 16.4%;
-  overflow-wrap: break-word;
-  text-align: justify;
-  text-justify:distribute-all-lines;
-  z-index: -1;
 }
 
 .s {
