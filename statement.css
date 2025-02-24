@@ -57,7 +57,7 @@ body {
     background-image: url("sculptures/img/site bg phone sculptures@300x-20.jpg");
   }
   .cadre {
-    font-weight: bold;
+    font-weight:bolder;
     font-size: 17.6px;
     top: 46.9%;
     width: 80%;
