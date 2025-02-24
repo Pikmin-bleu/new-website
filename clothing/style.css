@@ -78,16 +78,16 @@ body {
 
 .middle {
   flex-direction:column;
-  top: 44.8%;
+  top: 47.8%;
     width: 80%;
-    height: 67%;
+    height: 68%;
   border-radius: 22.5% 22.5% 25px 25px;
 }
 
 .back {
   border: none;
   position:absolute;
-  top: 83.3%;
+  top: 87.3%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
