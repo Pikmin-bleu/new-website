@@ -125,7 +125,7 @@ body {
 .desc {
   font-size: 4.5vw;
   width: 75.5%;
-  top: 26%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -139,15 +139,14 @@ body {
 }
 
 .s {
-  top: 38.9%;
+  top: 42.9%;
   right: 52%;
   width: 35.8%;
   height: 15%;
-
 }
 
 .f {
-  top: 38.9%;
+  top: 42.9%;
   right: 11.8%;
   width: 35.8%;
   height: 15%;
@@ -155,7 +154,7 @@ body {
 
 .st {
   position:absolute;
-  top: 63.4%;
+  top: 67.4%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35.8%;
