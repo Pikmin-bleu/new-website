@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("img/site bg fashion@300x-8.png");
+  background-image: url("img/site bg fashion@300x-20.jpg");
   background-color: #FF7BAC;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
@@ -23,7 +23,7 @@ body {
 
 .button {
   background: rgba(0,0,0,0);
-  border-radius: 10%;
+  border-radius: 25px;
   font-size: 10px;
   max-height:50vh;
 }
@@ -58,17 +58,39 @@ body {
   overflow: scroll;
 }
 
+.fixin {
+  display: inherit;
+}
+
 @media screen and (max-width: 800px) {
+
+  .fixin {
+    display: none;
+  }
+
+  body {
+    background-image: url("img/site bg phone fashion@300x-20.jpg");
+  }
+  
   .button {
-    max-width:90vw;
+    max-width:80vw;
   }
-  .back {
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    top: 0px;
-    left: 0px;
-    bottom: 85vh;
-  }
+
+.middle {
+  flex-direction:column;
+  top: 44.8%;
+    width: 80%;
+    height: 67%;
+  border-radius: 22.5% 22.5% 25px 25px;
+}
+
+.back {
+  border: none;
+  position:absolute;
+  top: 83.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 }
 
 a {

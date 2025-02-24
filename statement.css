@@ -54,67 +54,24 @@ body {
 
 @media screen and (max-width: 800px) {
   body {
-    background-image: url("img/site bg phone.png");
+    background-image: url("sculptures/img/site bg phone sculptures@300x-20.jpg");
   }
   .cadre {
-    font-size: 20px;
-    width: 75vw;
-    padding: 5%;
-  }
-
-  .phone {
-    display: initial;
+    font-weight: bold;
+    font-size: 17.6px;
+    top: 46.9%;
+    width: 80%;
+    height: 65%;
+    border-radius: 25px;
   }
 
   .back {
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    top: 0px;
-    left: 0px;
-    bottom: 85vh;
-    display: none;
+    border: none;
+    position:absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-    /* Style the navigation menu */
- .topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: none;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: none;
-  color: white;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: none;
-  color: white;
-} 
 }
 
 a {
