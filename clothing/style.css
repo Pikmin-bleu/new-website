@@ -62,38 +62,50 @@ body {
   display: inherit;
 }
 
+.fixin2 {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
 
   .fixin {
     display: none;
   }
-
+  
   body {
-    background-image: url("img/site bg phone fashion@300x-20.jpg");
+    background-image: none;
+  }
+  
+  .fixin2 {
+    display: inherit;
   }
   
   .button {
     max-width:80vw;
   }
-
-.middle {
-  flex-direction:column;
-  top: 47.8%;
-    width: 80%;
-    height: 68%;
-  border-radius: 22.5% 22.5% 25px 25px;
-}
-
-.back {
-  border: none;
-  position:absolute;
-  top: 87.3%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-}
-
-a {
+  
+  .middle {
+    flex-direction:column;
+    top: 0%;
+      width: 100vw;
+      height: 100vh;
+      transform: translate(-50%, 0%);
+    overflow: none;
+  }
+  
+  .back {
+    height: 50px;
+    border: none;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  }
+  
+  a {
   color: black;
   text-decoration: none;
-}
+  }
+  

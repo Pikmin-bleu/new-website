@@ -59,9 +59,17 @@ transform: translate(-50%, -50%);
 overflow: scroll;
 }
 
+.fixin {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
 body {
-  background-image: url("img/site bg phone sculptures@300x-20.jpg");
+  background-image: none;
+}
+
+.fixin {
+  display: inherit;
 }
 
 .button {
@@ -70,18 +78,21 @@ body {
 
 .middle {
   flex-direction:column;
-  top: 47.8%;
-    width: 80%;
-    height: 68%;
-  border-radius: 25px;
+  top: 0%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, 0%);
+  overflow: none;
 }
 
 .back {
+  height: 50px;
   border: none;
-  position:absolute;
-  top: 87.3%;
+  position: fixed;
+  width: 100%;
+  top: 0%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
 }
 }
 
