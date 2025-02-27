@@ -12,6 +12,14 @@
   font-style: normal;
 }
 
+.copyright {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 10px;
+  color: black;
+}
+
 body {
   background-image: url("img/site bg final@300x-50.jpg");
   background-repeat: no-repeat;
