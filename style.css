@@ -87,7 +87,7 @@ body {
 
 .cv {
   position: absolute;
-  top: 37%;
+  top: 68%;
   right: 4.6%;
   width: 13.6%;
   height: 21.6%;
@@ -161,7 +161,6 @@ body {
 }
 
 .st {
-  position:absolute;
   top: 67.4%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -169,8 +168,16 @@ body {
   height: 15%;
 }
 
+.cv {
+  top: 84.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35.8%;
+  height: 15%;
+}
+
 .copyright {
-  color: white;
+  color: black;
   text-shadow: -0.5px -0.5px 0 #FF7BAC, 0 -0.5px 0 #FF7BAC, 0.5px -0.5px 0 #FF7BAC, 0.5px 0 0 #FF7BAC, 0.5px 0.5px 0 #FF7BAC, 0 0.5px 0 #FF7BAC, -0.5px 0.5px 0 #FF7BAC, -0.5px 0 0 #FF7BAC;
 }
 
