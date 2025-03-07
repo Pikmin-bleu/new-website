@@ -177,8 +177,7 @@ body {
 }
 
 .copyright {
--webkit-background-clip: text;
- background-clip: text;
+    mix-blend-mode: difference;
 filter: invert(1) grayscale(1) contrast(9);
 }
 
