@@ -177,8 +177,9 @@ body {
 }
 
 .copyright {
-  color: white;
-mix-blend-mode: difference;
+-webkit-background-clip: text;
+ background-clip: text;
+filter: invert(1) grayscale(1) contrast(9);
 }
 
   }
