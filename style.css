@@ -177,8 +177,8 @@ body {
 }
 
 .copyright {
-  color: black;
-  text-shadow: -0.5px -0.5px 0 #FF7BAC, 0 -0.5px 0 #FF7BAC, 0.5px -0.5px 0 #FF7BAC, 0.5px 0 0 #FF7BAC, 0.5px 0.5px 0 #FF7BAC, 0 0.5px 0 #FF7BAC, -0.5px 0.5px 0 #FF7BAC, -0.5px 0 0 #FF7BAC;
+    mix-blend-mode: difference;
+filter: invert(1) grayscale(1) contrast(9);
 }
 
   }
