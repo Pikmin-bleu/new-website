@@ -161,19 +161,21 @@ body {
 }
 
 .st {
-  top: 67.4%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 60.4%;
+  left: 11.8%;
   width: 35.8%;
   height: 15%;
+  color: black;
+  background-color: white;
 }
 
 .cv {
-  top: 84.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 60.4%;
+  left: 52%;
   width: 35.8%;
   height: 15%;
+  color: black;
+  background-color: white;
 }
 
 .copyright {
