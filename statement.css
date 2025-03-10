@@ -23,6 +23,7 @@ body {
 
 .cadre {
   width: 50vw;
+  height: 53vh;
   font-family: "Futura";
   font-size: 25px;
   position:absolute;
@@ -63,6 +64,7 @@ body {
 
 .cadre {
   width: 80vw;
+  height: 100vh;
   font-family: "Futura";
   font-size: 23px;
   position:absolute;
@@ -89,3 +91,9 @@ color: white;
 text-decoration: none;
 }
 
+hr {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid black;
+}
