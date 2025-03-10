@@ -22,11 +22,8 @@ image-rendering: pixelated;
 
 
 .button {
-background: rgba(0,0,0,0);
 border-radius: 25px;
-font-size: 10px;
-max-height:40vh;
-
+max-height:60vh;
 }
 
 .back {
@@ -46,14 +43,13 @@ align-items: center;
 }
 
 .middle {
-width: 80%;
+width: 85%;
 height: 53%;
 display: flex;
-align-items: center;
-flex-direction:row;
 justify-content: space-between;
+flex-wrap: wrap;
 position:absolute;
-top: 50%;
+top: 49.5%;
 left: 50%;
 transform: translate(-50%, -50%);
 overflow: scroll;
@@ -83,6 +79,7 @@ body {
     height: 100vh;
     transform: translate(-50%, 0%);
   overflow: none;
+  flex-wrap: nowrap;
 }
 
 .back {
@@ -99,4 +96,12 @@ body {
 a {
 color: black;
 text-decoration: none;
+}
+
+.test:focus-within {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.4); 
+  /* border: 100vw solid rgba(251, 123, 172, 0.8); */
 }
