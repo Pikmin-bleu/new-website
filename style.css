@@ -162,11 +162,13 @@ body {
 }
 
 .links {
-  position: relative;
-  top: 0;
-  right: 0;
+  text-align: center;
+  position:initial;
+  top: initial;
+  right: initial;
   font-size: 10vw;
-  width: 75.5%;
+  width: 100%;
+  display: inline-block;
 }
 
 .button {
