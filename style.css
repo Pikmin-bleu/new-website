@@ -130,12 +130,30 @@ body {
   display: none;
 }
 
-.desc {
-  font-size: 4.5vw;
-  width: 75.5%;
-  top: 28%;
+.box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction:column;
+  justify-content: space-around;
+  position: absolute;
+  width: 100vw;
+  height: 75vh;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.desc {
+  font-size: 4.5vw;
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 75.5%;
+}
+
+.links {
+  font-size: 10vw;
 }
 
 .button {
@@ -144,27 +162,29 @@ body {
   border: none;
   color: white;
   background-color: black;
+  width: 75.5%;
+  height: 18%;
+  position: relative;
+  top: 0;
+  right: 0;
 }
 
 .s {
-  top: 42.9%;
-  right: 52%;
-  width: 35.8%;
-  height: 15%;
+  position: relative;
+  top: 0;
+  right: 0;
 }
 
 .f {
-  top: 42.9%;
-  right: 11.8%;
-  width: 35.8%;
-  height: 15%;
+  position: relative;
+  top: 0;
+  right: 0;
 }
 
 .st {
-  top: 60.4%;
-  left: 11.8%;
-  width: 35.8%;
-  height: 15%;
+  position: relative;
+  top: 0;
+  right: 0;
   background-color: rgb(1, 1, 1, 0);
   color: black;
   box-sizing: border-box;
@@ -172,10 +192,9 @@ body {
 }
 
 .cv {
-  top: 60.4%;
-  left: 52%;
-  width: 35.8%;
-  height: 15%;
+  position: relative;
+  top: 0;
+  right: 0;
   background-color: rgb(1, 1, 1, 0);
   color: black;
   box-sizing: border-box;
@@ -183,36 +202,10 @@ body {
 }
 
 .copyright {
-    color: white;
+  color: black;
 }
 
   }
-
-
-.logo {
-  background-image: url("img/jambon beurre.svg");
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-  /* filter:
-        drop-shadow( 0.5px  0px 0px grey)
-        drop-shadow(-0.5px  0px 0px grey)
-        drop-shadow( 0px  0.5px 0px grey)
-        drop-shadow( 0px -0.5px 0px grey) */
-}
-
-.menu {
-  width: 85%;
-  height: 20%;
-  position: absolute;
-  top: 45vh;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-left: 100px;
-  padding-right: 100px;
-}
 
 .back {
   background: white;
