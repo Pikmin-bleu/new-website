@@ -29,12 +29,12 @@ body {
   background: black;
   border: 1px solid white;
   color: white;
-  padding: 10px;
+  padding: 0.6vw;
   border-radius: 4px;
-  font-size: 20px;
+  font-size: 2vw;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 15px;
+  left: 15px;
   z-index:3;
   display: flex;
   justify-content: center;
@@ -50,6 +50,7 @@ body {
   justify-content: space-between;
   position:absolute;
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 800px) {

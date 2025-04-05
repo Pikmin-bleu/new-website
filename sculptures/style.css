@@ -30,12 +30,12 @@ max-height:60vh;
 background: black;
 border: 1px solid white;
 color: white;
-padding: 10px;
+padding: 0.6vw;
 border-radius: 4px;
-font-size: 20px;
+font-size: 2vw;
 position: absolute;
-top: 10px;
-left: 10px;
+top: 15px;
+left: 15px;
 z-index:3;
 display: flex;
 justify-content: center;
@@ -53,6 +53,7 @@ top: 49.5%;
 left: 50%;
 transform: translate(-50%, -50%);
 overflow: scroll;
+overflow-x: hidden;
 }
 
 .fixin {
@@ -88,6 +89,7 @@ body {
   border: none;
   position: fixed;
   width: 100%;
+  font-size: 6vw;
   top: 0%;
   left: 50%;
   transform: translate(-50%, 0%);
