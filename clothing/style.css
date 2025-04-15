@@ -93,6 +93,7 @@ body {
       height: 100vh;
       transform: translate(-50%, 0%);
     overflow: none;
+    overflow-y: auto;
   }
   
   .back {
