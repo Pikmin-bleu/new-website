@@ -150,28 +150,27 @@ body {
   justify-content: space-between;
   position: absolute;
   width: 100vw;
-  height: 75vh;
-  top: 14%;
+  height: 80vh;
+  top: 55%;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -50%);
 }
 
 .desc {
   display: none;
+  overflow: hidden;
 }
 
 .intro {
   position: relative;
   top: 0;
   right: 0;
-  width: 75.5%;
 }
 
 .links {
   text-align: center;
   font-size: 10vw;
   width: 100%;
-  height: 10vw;
 }
 
 .button {

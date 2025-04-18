@@ -22,15 +22,16 @@ body {
 }
 
 .cadre {
-  width: 60vw;
-  height: 53vh;
+  width: 75vw;
+  height: 50vh;
   font-family: "Futura";
-  font-size: 2vw;
+  font-size: 24px;
   position:absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
   z-index: -1;
+  overflow: scroll;
 }
 
 .back {
