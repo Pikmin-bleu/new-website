@@ -6,9 +6,6 @@
 }
 
 body {
-  background-image: url("sculptures/img/site sculptures bg@300x-20.jpg");
-  background-repeat: no-repeat;
-  background-size: 100vw 100vh;
   background-color: #FF7BAC;
   color: black;
   font-family: "Futura";
@@ -31,7 +28,6 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
   z-index: -1;
-  overflow: scroll;
 }
 
 .back {
