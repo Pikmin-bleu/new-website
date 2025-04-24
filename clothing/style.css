@@ -24,7 +24,7 @@ body {
   background: rgba(0,0,0,0);
   border-radius: 25px;
   font-size: 10px;
-  max-height:50vh;
+  max-width: 35vh;
 }
 
 
@@ -58,20 +58,19 @@ body {
 }
 
 .middle {
-  width: 40%;
-  height: 71%;
+  width: 45%;
+  height: 64%;
   display: flex;
-  align-items: center;
-  flex-direction:row;
   justify-content: space-between;
+  flex-wrap: wrap;
   position:absolute;
-  top: 55%;
+  top: 52.6%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: scroll;
-  overflow-y: hidden;
+  overflow-x: hidden;
   text-align: center;
-}
+  }
 
 .fixin {
   display: inherit;
@@ -108,7 +107,6 @@ body {
       height: 100vh;
       transform: translate(-50%, 0%);
     overflow: none;
-    overflow-y: auto;
   }
   
   .menu {
