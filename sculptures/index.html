@@ -9,6 +9,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
+
     <div class="menu">
       <a href="/" class="items">home</a>
       <a href="../statement" class="items">State<br>ment</a>
@@ -17,33 +18,43 @@
       <a href="../clothing" class="items">Fash<br>ion</a>
       </div>
     <div class="middle">
-      <!-- <p><img src="img/20250115_230600.jpg" alt="" class="button">
-        <br>Mask (2/6/20)
-        <br>Plastic base, faux fur, ink</p>
-      <p><img src="img/AddysonBonner_SPQR_4:11:21.jpg" alt="" class="button">
-        <br>SPQR (4/11/21)
-        <br>Repurposed paper from beloathed heirloom 'SPQR' book, cardboard, ink</p> -->
         <div class="fixin"><p><br><br></p></div>
 
-      <p><img src="img/AddysonBonner_Jermy4_12-17-22-BIG.jpg" alt="" class="button" class="button" oncontextmenu="return false;">
+      <p><img src="img/AddysonBonner_Jermy4_12-17-22-BIG.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/AddysonBonner_Jermy4_12-17-22-BIG.jpg')">
       <br>Foie d'Butch, 2022
       <br>Wet felted body with needle felted details, repurposed clothes</p>
 
-      <p><img src="img/AddysonBonner_oxbow_8-22-23.jpg" alt="" class="button" class="button" oncontextmenu="return false;"> 
+      <p><img src="img/AddysonBonner_oxbow_8-22-23.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/AddysonBonner_oxbow_8-22-23.jpg')"> 
       <br>Pervert, 2023
       <br>Plasma cut steel with welded details</p>
 
-      <p><img src="img/AddysonBonner_mirror_10-23-23.jpg" alt="" class="button" class="button" oncontextmenu="return false;">
+      <p><img src="img/AddysonBonner_mirror_10-23-23.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/AddysonBonner_mirror_10-23-23.jpg')">
       <br>Mirror Dog, 2023
       <br>Repurposed mirror, red felt, repurposed eyes</p>
 
-      <p><img src="img/addysonbonner-fridaydevil-01-20-25.jpg" alt="" class="button" class="button" oncontextmenu="return false;">
+      <p><img src="img/addysonbonner-fridaydevil-01-20-25.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/addysonbonner-fridaydevil-01-20-25.jpg')">
       <br>Friday Devil, 2025
       <br>Red felt, pink jersey fabric, iron-on patches</p>
 
-      <p><img src="img/addysonbonner-trophyformybody-03:09:2025.jpg" alt="" class="button" class="button" oncontextmenu="return false;">
+      <p><img src="img/addysonbonner-trophyformybody-03:09:2025.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/addysonbonner-trophyformybody-03:09:2025.jpg')">
       <br>Trophy To My Body, 2025
       <br>Glass, red felt, root beer</p>
     </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage">
+  </div>
+
+    <script>
+      function openModal(src) {
+          document.getElementById("modalImage").src = src;
+          document.getElementById("myModal").style.display = "block";
+      }
+
+      function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+      }
+  </script>
   </body>
 </html>

@@ -18,24 +18,40 @@
       </div>
     <div class="middle">
       <div class="fixin2"><p><br><br></p></div>
-      <p><img src="img/AddysonBonner_tshirt3_10_28_23.jpg" alt="" class="button" oncontextmenu="return false;">
+      <p><img src="img/AddysonBonner_tshirt3_10_28_23.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/AddysonBonner_tshirt3_10_28_23.jpg')">
         <br>Cat Top (autumn 2023)
         <br>sublimation print on synthetic jersey fabric</p>
         <div class="fixin"><p style="color: #FF7BAC;">___</p></div>
-        <p><img src="img/ABonner231216-4366-cropped.jpg" alt="" class="button" oncontextmenu="return false;">
+        <p><img src="img/ABonner231216-4366-cropped.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/ABonner231216-4366-cropped.jpg')">
         <br>Cherub Top (summer 2024)
         <br>sublimation print on synthetic mesh shirt</p>
         <div class="fixin"><p style="color: #FF7BAC;">___</p></div>
-        <p><img src="img/ABonner231216-4364-copy.jpg" alt="" class="button" oncontextmenu="return false;">
+        <p><img src="img/ABonner231216-4364-copy.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/ABonner231216-4364-copy.jpg')">
         <br>Bat Skirt (spring 2024)
         <br>plad pleated skirt with jean hipband and posable jean bat wings
         </p>
         <div class="fixin"><p style="color: #FF7BAC;">___</p></div>
-        <p><img src="img/20250115_230405.jpg" alt="" class="button" oncontextmenu="return false;">
+        <p><img src="img/20250115_230405.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/20250115_230405.jpg')">
         <!-- <p style="color: #FF7BAC;">___</p> -->
           <!-- <p><img src="img/20250115_230243.jpg" alt="" class="button"> -->
           <br>Word Sweater (autumn 2024)
           <br>sublimation print on part wool, part synthetic knit</p>
     </div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage">
+  </div>
+
+    <script>
+      function openModal(src) {
+          document.getElementById("modalImage").src = src;
+          document.getElementById("myModal").style.display = "block";
+      }
+
+      function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+      }
+  </script>
   </body>
 </html>
