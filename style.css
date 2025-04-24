@@ -68,6 +68,11 @@ body {
   text-align: center;
 }
 
+.button:hover {
+  background: black;
+  color: #FB7BAC;
+}
+
 #links {
   font-size: 2vw;
 }
