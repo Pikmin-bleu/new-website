@@ -33,10 +33,10 @@ body {
 
 #box {
   position: absolute;
-  top: 49.6%;
+  top: 50%;
   left: 49.76%;
   width: 55vw;
-  height: 51vh;
+  height: 53vh;
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
