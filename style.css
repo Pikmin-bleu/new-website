@@ -177,6 +177,7 @@ a {
 
 .fa-instagram, .fa-envelope-square {
 line-height: 80%;
+padding: 0px;
 }
 
 .fa-instagram:hover, .fa-envelope-square:hover {
