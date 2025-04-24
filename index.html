@@ -11,26 +11,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/40da3a9f4a.js" crossorigin="anonymous"></script>
   </head>
+
+  <script>
+window.addEventListener("load",function() {
+    setTimeout(function(){
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+    }, 0);
+});
+  </script>
+
   <body>
     <!-- <a href="../index.html" class="back">
     back</a> -->
-    <div class="box">
-    <a href="sculptures" class="button s">
-    <div class="fixin">SCULP-<br>TURES</div><div class="doublefixin">SCULPTURES</div></a>
-    <a href="clothing" class="button f">
-    FASH-<br>ION</a>
-    <a href="statement" class="button st">
-      STATE-<br>MENT</a>
-    <a href="cv" class="button cv">
-      CV</a>
-    <br>
-  <div class="intro">
-    <div class="desc">
-      THIS IS THE WEBSITE OF ADDYSON BONNER, AN INTERDISCIPLINARY ARTIST BASED IN CHICAGO, ILLINOIS.
-    </div>
-    <div class="links"><a href="https://www.instagram.com/pikminbleu/" class="fab fa-instagram"></a> <a href="mailto:addyson.bonner@gmail.com" class="fas fa-envelope-square"></a></div>
+  <div id="box">
+    <nobr>THIS IS THE WEBSITE OF <b>ADDYSON BONNER</b><br>AN INTERDISCIPLINARY ARTIST BASED IN CHICAGO, ILLINOIS.</nobr>
+    <div id="menu">
+    <a href="sculptures" class="button">SCULPTURES</a>
+    <a href="clothing" class="button">FASHION</a>
+    <a href="statement" class="button p">STATEMENT</a>
+    <a href="cv" class="button p">CV</a>
   </div>
-  <div class="copyright">© 2025 ADDYSON BONNER</div>
+  <div id="links"><a href="https://www.instagram.com/pikminbleu/" class="fab fa-instagram"></a> <a href="mailto:addyson.bonner@gmail.com" class="fas fa-envelope-square"></a></div>
   </div>
+  <div id="copyright">© 2025 ADDYSON BONNER</div>
   </body>
 </html>
