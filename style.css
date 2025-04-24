@@ -175,13 +175,12 @@ a {
   text-decoration: none;
 }
 
+.fa-instagram, .fa-envelope-square {
+line-height: 90%;
+}
+
 .fa-instagram:hover, .fa-envelope-square:hover {
 color: white;
 background: black;
 border-radius: 10px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
-padding-bottom: 0px;
-line-height: 90%;
 }
