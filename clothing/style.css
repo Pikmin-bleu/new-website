@@ -107,6 +107,7 @@ body {
       height: 100vh;
       transform: translate(-50%, 0%);
     overflow: none;
+    flex-wrap: nowrap;
   }
   
   .menu {
