@@ -178,4 +178,10 @@ a {
 .fa-instagram:hover, .fa-envelope-square:hover {
 color: white;
 background: black;
+border-radius: 6px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+line-height: 90%;
 }
