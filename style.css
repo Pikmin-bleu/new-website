@@ -50,7 +50,7 @@ body {
   height: 44vh;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content:space-evenly;
 }
