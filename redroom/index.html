@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addyson Bonner Art</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+
+    <div class="menu">
+      <a href="/" class="items">home</a>
+      <a href="../statement" class="items">State<br>ment</a>
+      <a href="../cv" class="items">CV</a>
+      <a href="" class="items" style="background: white; color: black;">Sculp<br>ture</a>
+      <a href="../clothing" class="items">Fash<br>ion</a>
+      <a href="../contact" class="items">mail</a>
+      </div>
+   <div class="mouth" class="fixin"><img src="img/website sculpture top.png" width="100%"></div>
+<div class="middle">
+      <p><img src="img/you are stuck in a red room.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/you are stuck in a red room.jpg')">
+      <br>Foie d'Butch, 2022
+      <br>Wet felted body with needle felted details, repurposed clothes</p>
+
+      <p><img src="img/redroom_addysonbonner_compressed.jpg" alt="" class="button" oncontextmenu="return false;" onclick="openModal('img/redroom_addysonbonner_compressed.jpg')">
+      <br>Foie d'Butch, 2022
+      <br>Wet felted body with needle felted details, repurposed clothes</p>
+</div>
+
+    <div class="mouth" class="fixin"><img src="img/website sculpture bottom.png" width="100%"></div>
+
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage">
+  </div>
+
+    <script>
+      function openModal(src) {
+          document.getElementById("modalImage").src = src;
+          document.getElementById("myModal").style.display = "block";
+      }
+
+      function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+      }
+  </script>
+  </body>
+</html>
